@@ -1,4 +1,4 @@
-FROM ubuntu:jammy as build
+FROM amazoncorretto:17-alpine as build
 
 WORKDIR /echo
 
