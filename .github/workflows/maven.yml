@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Capture built jar
-      uses: action/upload-artifact@v3
+      uses: actions/upload-artifact@v3
       with:
         name: app
         path: target/echo-0.0.1-SNAPSHOT.jar
